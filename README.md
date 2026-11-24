@@ -527,9 +527,8 @@ The average road distance includes only reachable localities. It can decrease af
 
 RescueMesh is a Buildathon project exploring graph-based hospital accessibility under hypothetical flood-related road disruptions.
 
-Built for TuteDude Buildathon
+## Built for TuteDude Buildathon
 
-Requirements :
 Problem statement
 
 CityFix: Building better cities
