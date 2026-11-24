@@ -527,7 +527,29 @@ The average road distance includes only reachable localities. It can decrease af
 
 RescueMesh is a Buildathon project exploring graph-based hospital accessibility under hypothetical flood-related road disruptions.
 
-Built with AI assistance.
+Built for TuteDude Buildathon
+
+Requirements :
+Problem statement
+
+CityFix: Building better cities
+
+WHAT TO DO
+Pick a real problem in your city (traffic, waste, safety, public services…) and build a working solution for it. Any technology is allowed. Go beyond just reporting issues: fresh ideas score higher.
+
+WHAT TO SUBMIT
+• A working product (live link or demo)
+• Brand kit and landing page
+• Launch film (60–90 sec) and an explainer video with a demo (2–3 min)
+• Social posts on new Instagram and X accounts, with #TutedudeBuildathon and #BuildForMyCity
+• Documentation and source code
+
+SUBMISSION TIPS
+• Start fresh on Day 1: all work must be done in the 7 days.
+• The team leader submits once, on the team page.
+• Check that every link opens for the judges.
+• Submit as soon as your project is ready, any time before Sat, 28 Nov, 11:59 PM. Late entries don't count.
+
 
 ## Attribution and Disclaimer
 
