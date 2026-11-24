@@ -18,6 +18,21 @@ The Bengaluru edition includes an OpenStreetMap data-building pipeline targeting
 
 <img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/20d653f1-734a-4147-aad0-9b9f414de644" />
 
+## Stage 1:
+
+<img width="1892" height="126" alt="image" src="https://github.com/user-attachments/assets/070d3185-ebc1-43d2-a194-f9d5d62ef5ec" />
+
+<img width="1887" height="908" alt="image" src="https://github.com/user-attachments/assets/3c48b5c8-61a2-452d-ad9d-dcdcd9bc9f3f" />
+
+<img width="1892" height="906" alt="image" src="https://github.com/user-attachments/assets/0964a65f-1275-4cc4-9ff6-c2bc9ec7aa3e" />
+
+<img width="1887" height="901" alt="image" src="https://github.com/user-attachments/assets/cd00871d-9ec8-4771-8c1e-56952a638584" />
+
+<img width="1882" height="902" alt="image" src="https://github.com/user-attachments/assets/4d4e28ff-ff7e-4040-a0f8-092e154c4291" />
+
+<img width="1887" height="617" alt="image" src="https://github.com/user-attachments/assets/5bf238e2-4ae0-4806-a0d8-8b1f9156b6fc" />
+
+<img width="1900" height="852" alt="image" src="https://github.com/user-attachments/assets/6e1a9329-481b-4970-9665-27740a422536" />
 
 ## The Problem
 
