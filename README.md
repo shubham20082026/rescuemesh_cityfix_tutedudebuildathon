@@ -16,6 +16,9 @@ The Bengaluru edition includes an OpenStreetMap data-building pipeline targeting
 
 ---
 
+<img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/20d653f1-734a-4147-aad0-9b9f414de644" />
+
+
 ## The Problem
 
 A road closure can affect more than the vehicles travelling along it. It may disconnect a locality from nearby hospitals or force a substantially longer journey.
