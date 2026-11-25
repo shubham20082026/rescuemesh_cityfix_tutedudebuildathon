@@ -20,15 +20,21 @@ The Bengaluru edition includes an OpenStreetMap data-building pipeline targeting
 
 ## Stage 1:
 
+### Overview:
+
 <img width="1897" height="555" alt="image" src="https://github.com/user-attachments/assets/71080442-ce0a-4493-8aff-165db2c468bf" />
 
 <img width="1892" height="906" alt="image" src="https://github.com/user-attachments/assets/0964a65f-1275-4cc4-9ff6-c2bc9ec7aa3e" />
 
 <img width="1887" height="901" alt="image" src="https://github.com/user-attachments/assets/cd00871d-9ec8-4771-8c1e-56952a638584" />
 
+### Analysis:
+
 <img width="1882" height="902" alt="image" src="https://github.com/user-attachments/assets/4d4e28ff-ff7e-4040-a0f8-092e154c4291" />
 
 <img width="1887" height="617" alt="image" src="https://github.com/user-attachments/assets/5bf238e2-4ae0-4806-a0d8-8b1f9156b6fc" />
+
+### Project Notes:
 
 <img width="1900" height="852" alt="image" src="https://github.com/user-attachments/assets/6e1a9329-481b-4970-9665-27740a422536" />
 
