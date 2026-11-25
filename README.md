@@ -1,8 +1,6 @@
-# RescueMesh
+# RescueMesh **Developed by Shubham Parmar**
 
 ### Flood Road-Closure and Hospital-Accessibility Simulator
-
-**Developed by Shubham Parmar**
 
 RescueMesh explores how hypothetical flood-related road closures affect access to hospitals. It identifies disconnected localities, calculates the nearest reachable hospital and compares individual road repairs by their potential to restore access.
 
