@@ -1,0 +1,1 @@
+{"schema":"rescuemesh-data/v2","status":"missing","dataset_id":null,"nodes":[],"edges":[],"hospitals":[],"demand":[],"meta":{"notice":"No OSM dataset could be retrieved in the build environment (HTTP 406). Run python build_data.py locally with internet access; it writes data.json and embeds it in RescueMesh.html. No Bengaluru coordinates or features have been invented."}}

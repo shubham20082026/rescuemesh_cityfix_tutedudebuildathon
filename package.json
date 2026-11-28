@@ -1,0 +1,12 @@
+{
+  "name": "rescuemesh",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Road-closure and hospital-accessibility simulation by Shubham Parmar",
+  "scripts": {
+    "build": "node build.cjs",
+    "test": "npm run build && node --test tests/*.test.cjs",
+    "start": "node server.cjs"
+  },
+  "engines": { "node": ">=20" }
+}

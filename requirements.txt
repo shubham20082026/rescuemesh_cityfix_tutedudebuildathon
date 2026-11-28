@@ -1,0 +1,2 @@
+# Local data building only. The HTML itself has no dependencies.
+osmnx==2.0.6

@@ -1,0 +1,10 @@
+node_modules/
+.venv/
+.vercel/
+.env
+.env.*
+__pycache__/
+*.pyc
+osm_cache/
+dist/
+.DS_Store
