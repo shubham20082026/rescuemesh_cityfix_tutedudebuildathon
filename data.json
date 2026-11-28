@@ -1,1 +1,600 @@
-{"schema":"rescuemesh-data/v2","status":"missing","dataset_id":null,"nodes":[],"edges":[],"hospitals":[],"demand":[],"meta":{"notice":"No OSM dataset could be retrieved in the build environment (HTTP 406). Run python build_data.py locally with internet access; it writes data.json and embeds it in RescueMesh.html. No Bengaluru coordinates or features have been invented."}}
+{
+  "schema": "rescuemesh-data/v2",
+  "status": "ready",
+  "dataset_id": "SYNTHETIC-DEMO-NOT-BENGALURU-v1",
+  "nodes": [
+    {
+      "id": "N0",
+      "lat": 0.02,
+      "lon": 0.0,
+      "name": "Synthetic junction 0",
+      "population": 0
+    },
+    {
+      "id": "N1",
+      "lat": 0.02,
+      "lon": 0.01,
+      "name": "Synthetic junction 1",
+      "population": 0
+    },
+    {
+      "id": "N2",
+      "lat": 0.02,
+      "lon": 0.02,
+      "name": "Synthetic junction 2",
+      "population": 0
+    },
+    {
+      "id": "N3",
+      "lat": 0.02,
+      "lon": 0.03,
+      "name": "Synthetic junction 3",
+      "population": 0
+    },
+    {
+      "id": "N4",
+      "lat": 0.01,
+      "lon": 0.0,
+      "name": "Synthetic junction 4",
+      "population": 0
+    },
+    {
+      "id": "N5",
+      "lat": 0.01,
+      "lon": 0.01,
+      "name": "Synthetic junction 5",
+      "population": 0
+    },
+    {
+      "id": "N6",
+      "lat": 0.01,
+      "lon": 0.02,
+      "name": "Synthetic junction 6",
+      "population": 0
+    },
+    {
+      "id": "N7",
+      "lat": 0.01,
+      "lon": 0.03,
+      "name": "Synthetic junction 7",
+      "population": 0
+    },
+    {
+      "id": "N8",
+      "lat": 0.0,
+      "lon": 0.0,
+      "name": "Synthetic junction 8",
+      "population": 0
+    },
+    {
+      "id": "N9",
+      "lat": 0.0,
+      "lon": 0.01,
+      "name": "Synthetic junction 9",
+      "population": 0
+    },
+    {
+      "id": "N10",
+      "lat": 0.0,
+      "lon": 0.02,
+      "name": "Synthetic junction 10",
+      "population": 0
+    },
+    {
+      "id": "N11",
+      "lat": 0.0,
+      "lon": 0.03,
+      "name": "Synthetic junction 11",
+      "population": 0
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "a": "N0",
+      "b": "N1",
+      "name": "Synthetic road 0",
+      "weight": 1000,
+      "geometry": [
+        [
+          0.02,
+          0.0
+        ],
+        [
+          0.02,
+          0.01
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "a": "N1",
+      "b": "N2",
+      "name": "Synthetic road 1",
+      "weight": 1000,
+      "geometry": [
+        [
+          0.02,
+          0.01
+        ],
+        [
+          0.02,
+          0.02
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "a": "N2",
+      "b": "N3",
+      "name": "Synthetic road 2",
+      "weight": 1000,
+      "geometry": [
+        [
+          0.02,
+          0.02
+        ],
+        [
+          0.02,
+          0.03
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "a": "N0",
+      "b": "N4",
+      "name": "Synthetic road 3",
+      "weight": 1000,
+      "geometry": [
+        [
+          0.02,
+          0.0
+        ],
+        [
+          0.01,
+          0.0
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "a": "N1",
+      "b": "N5",
+      "name": "Synthetic road 4",
+      "weight": 1000,
+      "geometry": [
+        [
+          0.02,
+          0.01
+        ],
+        [
+          0.01,
+          0.01
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "a": "N2",
+      "b": "N6",
+      "name": "Synthetic road 5",
+      "weight": 1000,
+      "geometry": [
+        [
+          0.02,
+          0.02
+        ],
+        [
+          0.01,
+          0.02
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "a": "N3",
+      "b": "N7",
+      "name": "Synthetic road 6",
+      "weight": 1000,
+      "geometry": [
+        [
+          0.02,
+          0.03
+        ],
+        [
+          0.01,
+          0.03
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "a": "N4",
+      "b": "N5",
+      "name": "Synthetic road 7",
+      "weight": 1000,
+      "geometry": [
+        [
+          0.01,
+          0.0
+        ],
+        [
+          0.01,
+          0.01
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "a": "N5",
+      "b": "N6",
+      "name": "Synthetic road 8",
+      "weight": 1000,
+      "geometry": [
+        [
+          0.01,
+          0.01
+        ],
+        [
+          0.01,
+          0.02
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "a": "N6",
+      "b": "N7",
+      "name": "Synthetic road 9",
+      "weight": 1000,
+      "geometry": [
+        [
+          0.01,
+          0.02
+        ],
+        [
+          0.01,
+          0.03
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "a": "N4",
+      "b": "N8",
+      "name": "Synthetic road 10",
+      "weight": 1000,
+      "geometry": [
+        [
+          0.01,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "a": "N5",
+      "b": "N9",
+      "name": "Synthetic road 11",
+      "weight": 1000,
+      "geometry": [
+        [
+          0.01,
+          0.01
+        ],
+        [
+          0.0,
+          0.01
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "a": "N6",
+      "b": "N10",
+      "name": "Synthetic road 12",
+      "weight": 1000,
+      "geometry": [
+        [
+          0.01,
+          0.02
+        ],
+        [
+          0.0,
+          0.02
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "a": "N7",
+      "b": "N11",
+      "name": "Synthetic road 13",
+      "weight": 1000,
+      "geometry": [
+        [
+          0.01,
+          0.03
+        ],
+        [
+          0.0,
+          0.03
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "a": "N8",
+      "b": "N9",
+      "name": "Synthetic road 14",
+      "weight": 1000,
+      "geometry": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.01
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "a": "N9",
+      "b": "N10",
+      "name": "Synthetic road 15",
+      "weight": 1000,
+      "geometry": [
+        [
+          0.0,
+          0.01
+        ],
+        [
+          0.0,
+          0.02
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "a": "N10",
+      "b": "N11",
+      "name": "Synthetic road 16",
+      "weight": 1000,
+      "geometry": [
+        [
+          0.0,
+          0.02
+        ],
+        [
+          0.0,
+          0.03
+        ]
+      ]
+    }
+  ],
+  "hospitals": [
+    {
+      "id": "H0",
+      "node": "N0",
+      "name": "SYNTHETIC Hospital 1",
+      "lat": 0.02,
+      "lon": 0.0,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source"
+    },
+    {
+      "id": "H1",
+      "node": "N0",
+      "name": "SYNTHETIC Hospital 2",
+      "lat": 0.02,
+      "lon": 0.0,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source"
+    },
+    {
+      "id": "H2",
+      "node": "N0",
+      "name": "SYNTHETIC Hospital 3",
+      "lat": 0.02,
+      "lon": 0.0,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source"
+    },
+    {
+      "id": "H3",
+      "node": "N0",
+      "name": "SYNTHETIC Hospital 4",
+      "lat": 0.02,
+      "lon": 0.0,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source"
+    },
+    {
+      "id": "H4",
+      "node": "N4",
+      "name": "SYNTHETIC Hospital 5",
+      "lat": 0.01,
+      "lon": 0.0,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source"
+    },
+    {
+      "id": "H5",
+      "node": "N4",
+      "name": "SYNTHETIC Hospital 6",
+      "lat": 0.01,
+      "lon": 0.0,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source"
+    },
+    {
+      "id": "H6",
+      "node": "N4",
+      "name": "SYNTHETIC Hospital 7",
+      "lat": 0.01,
+      "lon": 0.0,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source"
+    },
+    {
+      "id": "H7",
+      "node": "N4",
+      "name": "SYNTHETIC Hospital 8",
+      "lat": 0.01,
+      "lon": 0.0,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source"
+    }
+  ],
+  "demand": [
+    {
+      "id": "D0",
+      "node": "N1",
+      "name": "SYNTHETIC Locality 1",
+      "lat": 0.02,
+      "lon": 0.01,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source",
+      "population": 100
+    },
+    {
+      "id": "D1",
+      "node": "N2",
+      "name": "SYNTHETIC Locality 2",
+      "lat": 0.02,
+      "lon": 0.02,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source",
+      "population": 200
+    },
+    {
+      "id": "D2",
+      "node": "N3",
+      "name": "SYNTHETIC Locality 3",
+      "lat": 0.02,
+      "lon": 0.03,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source",
+      "population": 300
+    },
+    {
+      "id": "D3",
+      "node": "N5",
+      "name": "SYNTHETIC Locality 4",
+      "lat": 0.01,
+      "lon": 0.01,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source",
+      "population": 400
+    },
+    {
+      "id": "D4",
+      "node": "N6",
+      "name": "SYNTHETIC Locality 5",
+      "lat": 0.01,
+      "lon": 0.02,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source",
+      "population": 500
+    },
+    {
+      "id": "D5",
+      "node": "N7",
+      "name": "SYNTHETIC Locality 6",
+      "lat": 0.01,
+      "lon": 0.03,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source",
+      "population": 600
+    },
+    {
+      "id": "D6",
+      "node": "N8",
+      "name": "SYNTHETIC Locality 7",
+      "lat": 0.0,
+      "lon": 0.0,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source",
+      "population": 700
+    },
+    {
+      "id": "D7",
+      "node": "N9",
+      "name": "SYNTHETIC Locality 8",
+      "lat": 0.0,
+      "lon": 0.01,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source",
+      "population": 800
+    },
+    {
+      "id": "D8",
+      "node": "N10",
+      "name": "SYNTHETIC Locality 9",
+      "lat": 0.0,
+      "lon": 0.02,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source",
+      "population": 900
+    },
+    {
+      "id": "D9",
+      "node": "N11",
+      "name": "SYNTHETIC Locality 10",
+      "lat": 0.0,
+      "lon": 0.03,
+      "snap_m": 0,
+      "source_url": "",
+      "osm_type": "Synthetic",
+      "osm_id": "No source",
+      "population": 1000
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "notice": "Fictional test network; arbitrary coordinates around zero used only for schematic layout. No real OSM sources.",
+    "length_method": "Invented 1000 m per segment for testing",
+    "components": 1
+  }
+}

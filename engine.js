@@ -5,6 +5,7 @@ const fail=m=>{throw Error(m);};
 const finite=x=>typeof x==='number'&&Number.isFinite(x);
 const coord=p=>finite(p.lat)&&finite(p.lon)&&Math.abs(p.lat)<=90&&Math.abs(p.lon)<=180;
 function validateData(d){
+ const synthetic=d?.meta?.synthetic===true;
  if(!d||d.schema!=='rescuemesh-data/v2'||d.status!=='ready')fail('Real data is not loaded. Run build_data.py, or select its generated data.json.');
  if(typeof d.dataset_id!=='string'||!/^[a-zA-Z0-9_-]{1,80}$/.test(d.dataset_id))fail('Invalid dataset identity.');
  for(const k of ['nodes','edges','hospitals','demand'])if(!Array.isArray(d[k]))fail('Missing '+k+' array.');
@@ -12,7 +13,7 @@ function validateData(d){
  if(d.hospitals.length<8||d.hospitals.length>15||d.demand.length<8||d.demand.length>12)fail('Expected 8–15 hospitals and 8–12 localities.');
  const ids=new Set();for(const n of d.nodes){if(typeof n.id!=='string'||ids.has(n.id)||!coord(n))fail('Invalid or duplicate junction.');ids.add(n.id);}
  for(let i=0;i<d.edges.length;i++){const e=d.edges[i];if(e.id!==i||!ids.has(e.a)||!ids.has(e.b)||!finite(e.weight)||e.weight<=0)fail('Invalid road endpoints, ID or metre length.');if(!Array.isArray(e.geometry)||e.geometry.length<2||e.geometry.length>50000||e.geometry.some(p=>!Array.isArray(p)||p.length!==2||!coord({lat:p[0],lon:p[1]})))fail('Invalid road geometry.');}
- for(const kind of ['hospitals','demand']){const seen=new Set();for(const p of d[kind]){if(typeof p.id!=='string'||seen.has(p.id)||!ids.has(p.node)||!coord(p)||typeof p.name!=='string'||!p.name.trim()||!finite(p.snap_m)||p.snap_m<0||typeof p.source_url!=='string'||!/^https:\/\/www\.openstreetmap\.org\/(node|way|relation)\/\d+$/.test(p.source_url))fail('Invalid '+kind+' feature or OSM source.');seen.add(p.id);if(kind==='demand'&&(!finite(p.population)||p.population<=0))fail('Invalid illustrative weight.');}}
+ for(const kind of ['hospitals','demand']){const seen=new Set();for(const p of d[kind]){if(typeof p.id!=='string'||seen.has(p.id)||!ids.has(p.node)||!coord(p)||typeof p.name!=='string'||!p.name.trim()||!finite(p.snap_m)||p.snap_m<0||typeof p.source_url!=='string'||(!synthetic&&!/^https:\/\/www\.openstreetmap\.org\/(node|way|relation)\/\d+$/.test(p.source_url)))fail('Invalid '+kind+' feature or OSM source.');seen.add(p.id);if(kind==='demand'&&(!finite(p.population)||p.population<=0))fail('Invalid illustrative weight.');}}
  return d;
 }
 class Heap{
